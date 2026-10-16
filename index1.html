@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tôn Giả Mục Kiền Liên</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+            color: #e0e0e0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow-x: hidden;
+        }
+
+        /* Hiệu ứng sao lấp lánh */
+        .stars {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            background: transparent;
+            z-index: 0;
+            box-shadow: 174px 212px #fff, 832px 412px #fff, 342px 712px #fff, 122px 912px #fff, 512px 112px #fff, 912px 612px #fff, 222px 312px #fff;
+            animation: animateStars 50s linear infinite;
+        }
+
+        @keyframes animateStars {
+            from {
+                transform: translateY(0px);
+            }
+            to {
+                transform: translateY(-2000px);
+            }
+        }
+
+        .container {
+            position: relative;
+            z-index: 1;
+            max-width: 800px;
+            margin: 40px;
+            padding: 40px;
+            background: rgba(15, 20, 35, 0.85);
+            border-radius: 16px;
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.5);
+            backdrop-filter: blur(8px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        h2 {
+            color: #ffcc00;
+            text-align: center;
+            font-size: 24px;
+            margin-bottom: 25px;
+            text-shadow: 0 0 10px rgba(255, 204, 0, 0.4);
+        }
+
+        p {
+            line-height: 1.8;
+            font-size: 16px;
+            text-align: justify;
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="stars"></div>
+
+    <div class="container">
+        <h2>I. THỜI THƠ ẤU TÔN GIẢ MỤC KIỀN LIÊN</h2>
+        <p>Tôn giả Mục Kiền Liên chào đời tại một ngôi làng nhỏ gần kinh đô Patna của vương quốc Ma Kiệt Đà (Magadha), nay thuộc tiểu bang Bihar, Ấn Độ. Ngài có một người bạn rất thân thiết là Ngài Xá Lợi Phất (Sariputta). Từ nhỏ hai Ngài đã gắn bó với nhau như hình với bóng, tuy tính cách có đôi chút khác biệt nhưng giữa đôi bạn tuyệt nhiên không có sự bất đồng ý kiến hay hiềm khích nào. Cả hai đều sinh trưởng trong những gia đình quý tộc giàu có và được tiếp thu trọn vẹn nền giáo dục truyền thống theo đạo Bà la môn. Đến năm khoảng 20 tuổi, Ngài Mục Kiền Liên và Ngài Xá Lợi Phất đã vang danh khắp vùng về tài năng và đức hạnh.</p>
+        <p>Mặc dù vậy, khi mọi điều tốt đẹp vây quanh thì cả hai lại nhận ra có một niềm khát khao nào đó cứ âm thầm trỗi dậy trong lòng mình, càng ngày càng tách rời họ khỏi những ước vọng bình thường của thế tục, thôi thúc họ phải đi tìm một đời sống tâm linh vĩnh cửu.</p>
+        <p>Một ngày đầu xuân ấm áp, hai vị cùng nhau tham dự một lễ hội truyền thống của vùng. Lễ hội thật rực rỡ và nhộn nhịp với vô số trò chơi, âm nhạc. Những sắc màu lấp lánh khắp nơi, những vở kịch được công diễn lôi cuốn quần chúng. Hai vị cũng được mời trở thành khán giả danh dự. Những vở kịch được diễn nối tiếp nhau, từ những cuộc chiến tranh khốc liệt đến những câu chuyện thường nhật nhỏ nhen, con người bị áp bức rồi vươn lên, có những kẻ thắng cuộc, có kẻ bại trận, sự vinh quang và đổ máu, sự mưu hại, những anh hùng chiến đấu chống lại kẻ ác… Sân khấu kia trở nên sinh động với muôn vàn mảnh ghép cuộc đời, còn các diễn viên cứ say sưa hết cười rồi khóc với nhân vật của họ.</p>
+        <p>Chứng kiến những cảnh đó, Ngài Mục Kiền Liên và Ngài Xá Lợi Phất lại chợt như bị cuốn vào trong vô số ưu tư về sự giả tạo, trống rỗng, ngắn ngủi của kiếp người. Vậy là hai Ngài đưa ra quyết định từ bỏ thế tục, xuất gia làm khất sĩ du phương tìm cầu chân lý. Thấy được ý chí và quyết tâm mạnh mẽ của hai vị, rất nhiều thanh niên trong làng cùng cất bước đi theo.</p>
+    </div>
+
+</body>
+</html>
